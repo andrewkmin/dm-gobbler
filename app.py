@@ -18,13 +18,10 @@ def get_dms_list(cursor):
       'count': 50, # max; default is 20
       'cursor': None if not cursor else cursor # eh... default to none unless next_cursor is truthy
   })
-
   return response
 
 def get_tweet(tweet_id):
   response = requests.get('https://api.twitter.com/1.1/statuses/show.json?id=%s' % tweet_id, auth = auth)
-
-  print(response.json())
   return response
 
 def fetch_dms():

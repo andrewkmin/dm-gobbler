@@ -1,6 +1,6 @@
 # dm reader
 ## description
-a curation tool. fetches your DMs using twitter's api v1.1 (reference [here](https://developer.twitter.com/en/docs/twitter-api/v1/direct-messages/sending-and-receiving/api-reference/list-events)). one use case would be to create a "bookmark-specific" twitter account specifically for the purpose of receiving noteworthy tweets.
+a curation tool. fetches your DMs using twitter's api v1.1 (reference [here](https://developer.twitter.com/en/docs/twitter-api/v1/direct-messages/sending-and-receiving/api-reference/list-events)). one use case would be to create a "bookmark-specific" twitter account specifically for the purpose of receiving noteworthy tweets. things will be a bit different with [v2](https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/api-reference/get-tweets-id)
 
 ## instructions
 1. clone this repo
